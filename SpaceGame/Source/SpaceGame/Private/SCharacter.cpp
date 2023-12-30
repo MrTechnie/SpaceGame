@@ -69,30 +69,30 @@ void ASCharacter::Jump()
 
 }
 
-//void ASCharacter::CrouchDelay()
-//{
+void ASCharacter::CrouchDelay()
+{
 	
-	//bCrouchCooldown = true;
+	bCrouchCooldown = true;
 	
-	//GetWorld()->GetTimerManager().SetTimer(CoolDownTimerHandle, this, &ASCharacter::ResetCrouchDelay, CrouchCooldownDuration, false);
+	GetWorld()->GetTimerManager().SetTimer(CoolDownTimerHandle, this, &ASCharacter::ResetCrouchDelay, CrouchCooldownDuration, false);
 
 
 
-//}
+}
 
-//void ASCharacter::ResetCrouchDelay()
-//{
-	//bCrouchCooldown = false;
-//}
+void ASCharacter::ResetCrouchDelay()
+{
+	bCrouchCooldown = false;
+}
 
 void ASCharacter::Crouch()
 
 {
-	//if (bCrouchCooldown == false) {
+	if (bCrouchCooldown == false) {
 
 		Super::Crouch();
-	//	CrouchDelay();
-	//}
+		CrouchDelay();
+	}
 
 	//nothing should happen if ShouldWait is true, as the function should not be executed.
 
@@ -101,11 +101,11 @@ void ASCharacter::Crouch()
 void ASCharacter::UnCrouch()
 {
 	
-	//if (bCrouchCooldown == false) {
+	if (bCrouchCooldown == false) {
 
 		Super::UnCrouch();
-		//CrouchDelay();
-	//}
+		CrouchDelay();
+	}
 
 
 	//nothing should happen if ShouldWait is true, as the function should not be executed.

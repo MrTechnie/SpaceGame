@@ -37,14 +37,14 @@ protected:
 	//Crouch Functions
    void Crouch();
 	void UnCrouch();
-	//void CrouchDelay();
-	//void ResetCrouchDelay(); 
+	void CrouchDelay();
+	void ResetCrouchDelay(); 
 
 	//Crouch Member Variables
 
-//	FTimerHandle CoolDownTimerHandle;
-//	bool bCrouchCooldown; 
-//	float CrouchCooldownDuration;
+	FTimerHandle CoolDownTimerHandle;
+	bool bCrouchCooldown; 
+	float CrouchCooldownDuration;
 
 public:
 	// Called every frame
