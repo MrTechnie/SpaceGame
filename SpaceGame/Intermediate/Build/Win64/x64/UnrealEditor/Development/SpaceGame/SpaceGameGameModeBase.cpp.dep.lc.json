@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "x:\\github\\spacegame\\spacegame\\source\\spacegame\\spacegamegamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\x64\\spacegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spacegame\\definitions.spacegame.h",
+            "x:\\github\\spacegame\\spacegame\\source\\spacegame\\spacegamegamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\unrealeditor\\inc\\spacegame\\uht\\spacegamegamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
