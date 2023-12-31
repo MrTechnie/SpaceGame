@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeSpaceGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x36E17EC8,
+				0x6CF058F6,
 				0x64B9196B,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeSpaceGame_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_SpaceGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SpaceGame(Z_Construct_UPackage__Script_SpaceGame, TEXT("/Script/SpaceGame"), Z_Registration_Info_UPackage__Script_SpaceGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x36E17EC8, 0x64B9196B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SpaceGame(Z_Construct_UPackage__Script_SpaceGame, TEXT("/Script/SpaceGame"), Z_Registration_Info_UPackage__Script_SpaceGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6CF058F6, 0x64B9196B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

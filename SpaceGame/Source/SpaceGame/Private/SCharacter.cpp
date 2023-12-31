@@ -6,6 +6,10 @@
 #include <GameFramework/SpringArmComponent.h>
 #include <GameFramework/CharacterMovementComponent.h>
 #include <Components/InputComponent.h>
+#include <UObject/Object.h>
+#include <GameFramework/Character.h>
+#include <TimerManager.h>
+#include <Engine/World.h>
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -33,8 +37,8 @@ ASCharacter::ASCharacter()
 
 	//Crouch Properties
 	
-	//bCrouchCooldown = false;
-	float CrouchCooldownDuration = 1.0f;
+	bCrouchCooldown = false;
+	CrouchCooldownDuration = 1.0f;
 	GetCharacterMovement()->MaxWalkSpeedCrouched = 200.0f;
 	GetCharacterMovement()->CrouchedHalfHeight = 60.0f;
 	
@@ -61,7 +65,7 @@ void ASCharacter::MoveRight(float value)
 }
 
 
-void ASCharacter::Jump()
+void ASCharacter::MakeJump()
 {
 
 	Super::Jump();
@@ -83,12 +87,14 @@ void ASCharacter::CrouchDelay()
 void ASCharacter::ResetCrouchDelay()
 {
 	bCrouchCooldown = false;
+
 }
 
-void ASCharacter::Crouch()
+void ASCharacter::MakeCrouch()
 
 {
-	if (bCrouchCooldown == false) {
+	if (!bCrouchCooldown) 
+	{
 
 		Super::Crouch();
 		CrouchDelay();
@@ -98,16 +104,17 @@ void ASCharacter::Crouch()
 
 }
 
-void ASCharacter::UnCrouch()
+void ASCharacter::MakeUnCrouch()
 {
 	
-	if (bCrouchCooldown == false) {
+	if (!bCrouchCooldown) 
+	{
 
 		Super::UnCrouch();
 		CrouchDelay();
 	}
 
-
+	
 	//nothing should happen if ShouldWait is true, as the function should not be executed.
 }
 
@@ -131,8 +138,8 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	
 	//Locomotion
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASCharacter::Jump);
-	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &ASCharacter::Crouch);
-	PlayerInputComponent->BindAction("UnCrouch", IE_Released, this, &ASCharacter::UnCrouch);
+	PlayerInputComponent->BindAction("MakeJump", IE_Pressed, this, &ASCharacter::MakeJump);
+	PlayerInputComponent->BindAction("MakeCrouch", IE_Pressed, this, &ASCharacter::MakeCrouch);
+	PlayerInputComponent->BindAction("MakeUnCrouch", IE_Released, this, &ASCharacter::MakeUnCrouch);
 }
 

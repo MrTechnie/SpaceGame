@@ -32,19 +32,22 @@ protected:
 	//Basic Movement
 	void MoveForward(float value);
 	void MoveRight(float value);
-	void Jump();
+	void MakeJump();
 
 	//Crouch Functions
-   void Crouch();
-	void UnCrouch();
+    void MakeCrouch();
+	void MakeUnCrouch();
 	void CrouchDelay();
 	void ResetCrouchDelay(); 
 
 	//Crouch Member Variables
 
-	FTimerHandle CoolDownTimerHandle;
-	bool bCrouchCooldown; 
+	UPROPERTY(EditAnywhere)
 	float CrouchCooldownDuration;
+
+	FTimerHandle CoolDownTimerHandle;
+	bool bCrouchCooldown;
+	
 
 public:
 	// Called every frame
