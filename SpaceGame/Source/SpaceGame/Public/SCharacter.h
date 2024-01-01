@@ -35,8 +35,7 @@ protected:
 	void MakeJump();
 
 	//Crouch Functions
-    void MakeCrouch();
-	void MakeUnCrouch();
+	void LetCrouch();
 	void CrouchDelay();
 	void ResetCrouchDelay(); 
 

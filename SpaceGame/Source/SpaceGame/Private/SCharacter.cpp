@@ -38,9 +38,9 @@ ASCharacter::ASCharacter()
 	//Crouch Properties
 	
 	bCrouchCooldown = false;
-	CrouchCooldownDuration = 1.0f;
+	CrouchCooldownDuration = 0.15f;
 	GetCharacterMovement()->MaxWalkSpeedCrouched = 200.0f;
-	GetCharacterMovement()->CrouchedHalfHeight = 60.0f;
+	GetCharacterMovement()->SetCrouchedHalfHeight(60.0f);
 	
 }
 
@@ -90,33 +90,27 @@ void ASCharacter::ResetCrouchDelay()
 
 }
 
-void ASCharacter::MakeCrouch()
-
+void ASCharacter::LetCrouch()
 {
-	if (!bCrouchCooldown) 
+
+	if (!bCrouchCooldown)
 	{
+		if (GetCharacterMovement()->IsCrouching())
+		{
+			Super::UnCrouch();
+			CrouchDelay();
+		}
 
-		Super::Crouch();
-		CrouchDelay();
+		else
+		{
+			Super::Crouch();
+			CrouchDelay();
+		}
 	}
-
-	//nothing should happen if ShouldWait is true, as the function should not be executed.
 
 }
 
-void ASCharacter::MakeUnCrouch()
-{
-	
-	if (!bCrouchCooldown) 
-	{
 
-		Super::UnCrouch();
-		CrouchDelay();
-	}
-
-	
-	//nothing should happen if ShouldWait is true, as the function should not be executed.
-}
 
 
 // Called every frame
@@ -139,7 +133,8 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	
 	//Locomotion
 	PlayerInputComponent->BindAction("MakeJump", IE_Pressed, this, &ASCharacter::MakeJump);
-	PlayerInputComponent->BindAction("MakeCrouch", IE_Pressed, this, &ASCharacter::MakeCrouch);
-	PlayerInputComponent->BindAction("MakeUnCrouch", IE_Released, this, &ASCharacter::MakeUnCrouch);
+	PlayerInputComponent->BindAction("LetCrouch", IE_Pressed, this, &ASCharacter::LetCrouch);
+
+
 }
 
