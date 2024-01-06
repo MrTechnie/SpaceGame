@@ -2,6 +2,7 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\tonyh\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (X:\GitHub\SpaceGame).
+  Invalidating makefile for SpaceGameEditor (SCharacter.cpp.obj.response modified)
   Building SpaceGameEditor...
   Using Visual Studio 2022 14.37.32824 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -12,13 +13,13 @@
   [Upgrade]
   Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.39 GB available: limiting max parallel actions to 3
-  Building 4 actions with 3 processes...
+    Requested 1.5 GB free memory per action, 3.12 GB available: limiting max parallel actions to 2
+  Building 4 actions with 2 processes...
   [1/4] Compile [x64] SCharacter.cpp
   [2/4] Link [x64] UnrealEditor-SpaceGame.lib
      Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.exp
   [3/4] Link [x64] UnrealEditor-SpaceGame.dll
      Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.exp
   [4/4] WriteMetadata SpaceGameEditor.target
-  Total time in Parallel executor: 1.84 seconds
-  Total execution time: 2.48 seconds
+  Total time in Parallel executor: 18.54 seconds
+  Total execution time: 20.35 seconds
