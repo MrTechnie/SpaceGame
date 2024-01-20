@@ -34,6 +34,7 @@ protected:
 	void MoveRight(float value);
 	void MakeJump();
 
+
 	//Crouch Functions
 	void LetCrouch();
 	void CrouchDelay();
