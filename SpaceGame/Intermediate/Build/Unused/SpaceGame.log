@@ -2,5 +2,9 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\tonyh\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (X:\GitHub\SpaceGame).
-  Target is up to date
-  Total execution time: 1.23 seconds
+  Invalidating makefile for SpaceGameEditor (SCharacter.cpp.obj.response modified)
+  Parsing headers for SpaceGameEditor
+    Running Internal UnrealHeaderTool X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\SpaceGameEditor\Development\SpaceGameEditor.uhtmanifest -WarningsAsErrors -installed
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\SInventory_AC.h(14): warning : The identifier 'GENERATED_BODY' was detected in a block being skipped. Was this intentional?
+  Total of 0 written
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.2\Engine\Build\BatchFiles\Build.bat" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.
