@@ -14,7 +14,7 @@ USInventory_AC::USInventory_AC()
 
 	
 
-	//FString NewItem;
+	
 
 
 	
@@ -33,17 +33,23 @@ void USInventory_AC::BeginPlay()
 }
 
 
-/*void USInventory_AC::AddItemToInventory()
+void USInventory_AC::AddItemToInventory(FString NewItem)
 {
 
 	
-	TArray<FString> Inventory;
+
+	Inventory.Add(NewItem); //adds item to array
+
+
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, NewItem);
+
+
 	
 	
 
 
 
-}*/
+}
 
 // Called every frame
 void USInventory_AC::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
