@@ -12,7 +12,9 @@ USInventory_AC::USInventory_AC()
 
 	// ...
 
-	//FString Inventory[5];
+	
+
+	//FString NewItem;
 
 
 	
@@ -30,6 +32,18 @@ void USInventory_AC::BeginPlay()
 	
 }
 
+
+/*void USInventory_AC::AddItemToInventory()
+{
+
+	
+	TArray<FString> Inventory;
+	
+	
+
+
+
+}*/
 
 // Called every frame
 void USInventory_AC::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
