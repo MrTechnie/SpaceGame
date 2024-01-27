@@ -6,7 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "SInventory_AC.generated.h"
 
-class UInventoryComponent
+class UInventoryComponent;
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SPACEGAME_API USInventory_AC : public UActorComponent
@@ -17,16 +17,16 @@ public:
 	// Sets default values for this component's properties
 	USInventory_AC();
 
-	
+	TArray<FString> Inventory; //create array
 
-	UInventoryComponent* Inventory;
+	
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
 
-	void AddItemToInventory();
+	void AddItemToInventory(FString NewItem);
 
 public:	
 	// Called every frame
