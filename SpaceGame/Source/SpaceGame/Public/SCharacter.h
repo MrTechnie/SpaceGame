@@ -8,7 +8,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
-class UInventoryComponent; 
+class SInventory_AC;
 
 UCLASS()
 class SPACEGAME_API ASCharacter : public ACharacter
