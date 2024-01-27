@@ -66,6 +66,9 @@
     <ClCompile Include="..\..\Source\SpaceGame\Private\SInventory_AC.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceGame\Private\SPickableItem.cpp">
+      <Filter>Source\SpaceGame\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\SpaceGame\Public">
       <UniqueIdentifier>{27D62C88-58EC-3214-A21C-0FE661DFAA07}</UniqueIdentifier>
     </Filter>
@@ -73,6 +76,9 @@
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\SpaceGame\Public\SInventory_AC.h">
+      <Filter>Source\SpaceGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceGame\Public\SPickableItem.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
