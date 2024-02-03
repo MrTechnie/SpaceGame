@@ -1,4 +1,4 @@
-X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\SCharacter.cpp
+X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGame\UHT\IPickupItem.gen.cpp
 /I .
 /I X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
@@ -289,8 +289,8 @@ X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\SCharacter.cpp
 /FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.SpaceGame.h"
 /Yu"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /Fp"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SCharacter.cpp.obj"
-/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SCharacter.cpp.dep.json
+/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\IPickupItem.gen.cpp.lc.obj"
+/sourceDependencies"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\IPickupItem.gen.cpp.dep.lc.json"
 /Zc:inline
 /nologo
 /Oi
