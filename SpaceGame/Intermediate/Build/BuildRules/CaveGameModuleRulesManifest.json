@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"X:\\GitHub\\SpaceGame\\SpaceGame\\Source\\SpaceGame\\SpaceGame.Build.cs",
+		"X:\\GitHub\\SpaceGame\\SpaceGame\\Source\\SpaceGame.Target.cs",
+		"X:\\GitHub\\SpaceGame\\SpaceGame\\Source\\SpaceGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}
