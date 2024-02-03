@@ -1,4 +1,5 @@
-X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\SCharacter.h
-X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\SInventory_AC.h
-X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\SPickableItem.h
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\ASInventory.h
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\ASCharacter.h
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\ASPickableItem.h
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public\IPickupItem.h
 X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\SpaceGameGameModeBase.h

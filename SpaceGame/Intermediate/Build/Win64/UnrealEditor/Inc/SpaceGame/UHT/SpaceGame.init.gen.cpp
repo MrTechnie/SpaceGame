@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeSpaceGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4A1025A0,
-				0xC5C2BDEC,
+				0x99A217E5,
+				0xC7195055,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_SpaceGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_SpaceGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SpaceGame(Z_Construct_UPackage__Script_SpaceGame, TEXT("/Script/SpaceGame"), Z_Registration_Info_UPackage__Script_SpaceGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4A1025A0, 0xC5C2BDEC));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SpaceGame(Z_Construct_UPackage__Script_SpaceGame, TEXT("/Script/SpaceGame"), Z_Registration_Info_UPackage__Script_SpaceGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x99A217E5, 0xC7195055));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
