@@ -4,11 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "SCharacter.generated.h"
+#include "ASCharacter.generated.h"
+
 
 class UCameraComponent;
 class USpringArmComponent;
-class SInventory_AC;
+class ASInventory;
+
 
 UCLASS()
 class SPACEGAME_API ASCharacter : public ACharacter

@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "SPickableItem.generated.h"
+#include "ASPickableItem.generated.h"
 
 
 
@@ -29,6 +29,7 @@ public:
 	// Sets default values for this actor's properties
 	ASPickableItem();
 	
+
 	
 
 

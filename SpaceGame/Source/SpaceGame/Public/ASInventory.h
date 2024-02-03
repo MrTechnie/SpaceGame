@@ -4,9 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "SInventory_AC.generated.h"
+#include "ASInventory.generated.h"
 
-class UInventoryComponent;
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SPACEGAME_API USInventory_AC : public UActorComponent
