@@ -60,25 +60,31 @@
     <Filter Include="Source\SpaceGame\Private">
       <UniqueIdentifier>{0515113B-6838-3091-91E8-11EB6B0BE08A}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\SpaceGame\Private\SCharacter.cpp">
+    <ClCompile Include="..\..\Source\SpaceGame\Private\ASCharacter.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SpaceGame\Private\SInventory_AC.cpp">
+    <ClCompile Include="..\..\Source\SpaceGame\Private\ASInventory.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SpaceGame\Private\SPickableItem.cpp">
+    <ClCompile Include="..\..\Source\SpaceGame\Private\ASPickableItem.cpp">
+      <Filter>Source\SpaceGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceGame\Private\IPickupItem.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SpaceGame\Public">
       <UniqueIdentifier>{27D62C88-58EC-3214-A21C-0FE661DFAA07}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\SpaceGame\Public\SCharacter.h">
+    <ClInclude Include="..\..\Source\SpaceGame\Public\ASCharacter.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\SpaceGame\Public\SInventory_AC.h">
+    <ClInclude Include="..\..\Source\SpaceGame\Public\ASInventory.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\SpaceGame\Public\SPickableItem.h">
+    <ClInclude Include="..\..\Source\SpaceGame\Public\ASPickableItem.h">
+      <Filter>Source\SpaceGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceGame\Public\IPickupItem.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
