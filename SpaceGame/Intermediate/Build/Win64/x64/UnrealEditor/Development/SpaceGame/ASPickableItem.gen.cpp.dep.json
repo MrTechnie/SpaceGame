@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\unrealeditor\\inc\\spacegame\\uht\\aspickableitem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\x64\\spacegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spacegame\\definitions.spacegame.h",
+            "x:\\github\\spacegame\\spacegame\\source\\spacegame\\public\\aspickableitem.h",
+            "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\unrealeditor\\inc\\spacegame\\uht\\aspickableitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
