@@ -1,4 +1,4 @@
-X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGame\UHT\SpaceGame.init.gen.cpp
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\SpaceGame.cpp
 /I .
 /I X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
@@ -280,7 +280,7 @@ X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGam
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
@@ -289,8 +289,8 @@ X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGam
 /FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.SpaceGame.h"
 /Yu"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
 /Fp"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SpaceGame.init.gen.cpp.obj"
-/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SpaceGame.init.gen.cpp.dep.json
+/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SpaceGame.cpp.obj"
+/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\SpaceGame.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
