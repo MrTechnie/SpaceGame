@@ -1,4 +1,4 @@
-X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\ASInventory.cpp
+X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGame\UHT\ASInventory.gen.cpp
 /I .
 /I X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
@@ -280,14 +280,17 @@ X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\ASInventory.cpp
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.h"
-/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.cpp.obj"
-/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.cpp.dep.json
+/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.SpaceGame.h"
+/Yu"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.gen.cpp.obj"
+/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.gen.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

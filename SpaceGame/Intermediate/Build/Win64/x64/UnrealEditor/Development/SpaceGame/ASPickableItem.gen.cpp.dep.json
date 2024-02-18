@@ -7,6 +7,10 @@
         "Includes": [
             "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spacegame\\definitions.spacegame.h",
             "x:\\github\\spacegame\\spacegame\\source\\spacegame\\public\\aspickableitem.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
             "x:\\github\\spacegame\\spacegame\\intermediate\\build\\win64\\unrealeditor\\inc\\spacegame\\uht\\aspickableitem.generated.h"
         ],
         "ImportedModules": [],
