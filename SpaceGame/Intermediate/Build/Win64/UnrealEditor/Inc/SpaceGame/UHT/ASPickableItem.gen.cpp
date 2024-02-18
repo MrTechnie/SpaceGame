@@ -37,10 +37,8 @@ void EmptyLinkFunctionForGeneratedCodeASPickableItem() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASPickableItem_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/*UINTERFACE(MinimalAPI, Blueprintable)\nclass UPickupItem : public UInterface {\n\npublic:\n\n\x09virtual void PickupItem(FString NewItem);\n\n\n};\n*/" },
 		{ "IncludePath", "ASPickableItem.h" },
 		{ "ModuleRelativePath", "Public/ASPickableItem.h" },
-		{ "ToolTip", "UINTERFACE(MinimalAPI, Blueprintable)\nclass UPickupItem : public UInterface {\n\npublic:\n\n       virtual void PickupItem(FString NewItem);\n\n\n};" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASPickableItem_Statics::StaticCppClassTypeInfo = {
@@ -80,9 +78,9 @@ void EmptyLinkFunctionForGeneratedCodeASPickableItem() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceGame_Source_SpaceGame_Public_ASPickableItem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASPickableItem, ASPickableItem::StaticClass, TEXT("ASPickableItem"), &Z_Registration_Info_UClass_ASPickableItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASPickableItem), 1206014051U) },
+		{ Z_Construct_UClass_ASPickableItem, ASPickableItem::StaticClass, TEXT("ASPickableItem"), &Z_Registration_Info_UClass_ASPickableItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASPickableItem), 2036325842U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceGame_Source_SpaceGame_Public_ASPickableItem_h_2052367669(TEXT("/Script/SpaceGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SpaceGame_Source_SpaceGame_Public_ASPickableItem_h_4097297020(TEXT("/Script/SpaceGame"),
 		Z_CompiledInDeferFile_FID_SpaceGame_Source_SpaceGame_Public_ASPickableItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SpaceGame_Source_SpaceGame_Public_ASPickableItem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
