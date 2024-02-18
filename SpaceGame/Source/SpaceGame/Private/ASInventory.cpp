@@ -4,7 +4,7 @@
 #include "ASInventory.h"
 
 // Sets default values for this component's properties
-USInventory_AC::USInventory_AC()
+UASInventory::UASInventory()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -24,7 +24,7 @@ USInventory_AC::USInventory_AC()
 
 
 // Called when the game starts
-void USInventory_AC::BeginPlay()
+void UASInventory::BeginPlay()
 {
 	Super::BeginPlay();
 
@@ -33,7 +33,7 @@ void USInventory_AC::BeginPlay()
 }
 
 
-void USInventory_AC::AddItemToInventory(FString NewItem)
+void UASInventory::AddItemToInventory(FString NewItem)
 {
 
 	
@@ -52,7 +52,7 @@ void USInventory_AC::AddItemToInventory(FString NewItem)
 }
 
 // Called every frame
-void USInventory_AC::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UASInventory::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
