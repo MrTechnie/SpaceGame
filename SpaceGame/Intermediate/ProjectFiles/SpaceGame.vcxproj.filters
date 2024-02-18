@@ -11,7 +11,9 @@
     <None Include="..\..\Source\SpaceGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.editorconfig" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\shadertoolsconfig.json" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -69,9 +71,6 @@
     <ClCompile Include="..\..\Source\SpaceGame\Private\ASPickableItem.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SpaceGame\Private\IPickupItem.cpp">
-      <Filter>Source\SpaceGame\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\SpaceGame\Public">
       <UniqueIdentifier>{27D62C88-58EC-3214-A21C-0FE661DFAA07}</UniqueIdentifier>
     </Filter>
@@ -82,9 +81,6 @@
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\SpaceGame\Public\ASPickableItem.h">
-      <Filter>Source\SpaceGame\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\SpaceGame\Public\IPickupItem.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
