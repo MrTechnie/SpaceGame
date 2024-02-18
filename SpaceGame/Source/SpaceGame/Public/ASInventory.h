@@ -9,13 +9,13 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class SPACEGAME_API USInventory_AC : public UActorComponent
+class SPACEGAME_API UASInventory : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	USInventory_AC();
+	UASInventory();
 
 	TArray<FString> Inventory; //create array
 

@@ -4,20 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/SphereComponent.h"
 #include "ASPickableItem.generated.h"
 
+class USphereComponent;
+class UStaticMeshComponent;
 
-
-/*UINTERFACE(MinimalAPI, Blueprintable)
-class UPickupItem : public UInterface {
-
-public:
-
-	virtual void PickupItem(FString NewItem);
-
-
-};
-*/
 
 
 UCLASS()
@@ -29,7 +22,8 @@ public:
 	// Sets default values for this actor's properties
 	ASPickableItem();
 	
-
+	USphereComponent* Trigger;
+	UStaticMeshComponent* StaticMesh;
 	
 
 
