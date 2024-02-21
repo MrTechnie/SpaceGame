@@ -285,10 +285,7 @@ X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\ASInventory.cpp
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.SpaceGame.h"
-/Yu"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.h"
 /Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.cpp.obj"
 /sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.cpp.dep.json
 /Zc:inline
