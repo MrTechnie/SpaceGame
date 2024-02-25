@@ -19,16 +19,24 @@ ASCharacter::ASCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+
+	//Components
+
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComp");
 	SpringArmComp->SetupAttachment(RootComponent);
 
 	CameraComp = CreateDefaultSubobject<UCameraComponent>("CameraComp");
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	
+	
+	//Component Properties
 	SpringArmComp->bUsePawnControlRotation = true;
 
 	bUseControllerRotationYaw = true;
 	bUseControllerRotationPitch = false;
+
+
 
 
 	//Jump Properties
@@ -89,6 +97,20 @@ void ASCharacter::CrouchDelay()
 void ASCharacter::ResetCrouchDelay()
 {
 	bCrouchCooldown = false;
+
+}
+
+void ASCharacter::CreateInventory()
+{
+	/*if (GetWorld)
+	
+	{
+		CreateWidget<W_Inventory>(W_Inventory::StaticClass(), "Inventory");
+
+	 }
+
+
+	 */
 
 }
 

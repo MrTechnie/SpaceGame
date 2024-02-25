@@ -10,6 +10,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class ASInventory;
+class W_Inventory; 
 
 
 UCLASS()
@@ -27,6 +28,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
+
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -50,6 +53,12 @@ protected:
 
 	FTimerHandle CoolDownTimerHandle;
 	bool bCrouchCooldown;
+
+	//Inventory Declarations
+
+	void CreateInventory();
+
+	
 	
 
 public:
