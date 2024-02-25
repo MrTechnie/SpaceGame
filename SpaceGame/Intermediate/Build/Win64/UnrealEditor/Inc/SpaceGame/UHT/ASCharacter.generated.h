@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SPACEGAME_ASCharacter_generated_h
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_SPARSE_DATA
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_RPC_WRAPPERS
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_ACCESSORS
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_SPARSE_DATA
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_RPC_WRAPPERS
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_ACCESSORS
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_INCLASS \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_STANDARD_CONSTRUCTORS \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -50,7 +50,7 @@ public: \
 	NO_API virtual ~ASCharacter();
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -62,27 +62,27 @@ public: \
 	NO_API virtual ~ASCharacter();
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_15_PROLOG
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_GENERATED_BODY_LEGACY \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_16_PROLOG
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_SPARSE_DATA \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_RPC_WRAPPERS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_ACCESSORS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_INCLASS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_STANDARD_CONSTRUCTORS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_SPARSE_DATA \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_RPC_WRAPPERS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_ACCESSORS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_INCLASS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_GENERATED_BODY \
+#define FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_SPARSE_DATA \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_ACCESSORS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_INCLASS_NO_PURE_DECLS \
-	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_18_ENHANCED_CONSTRUCTORS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_SPARSE_DATA \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_ACCESSORS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_INCLASS_NO_PURE_DECLS \
+	FID_SpaceGame_Source_SpaceGame_Public_ASCharacter_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

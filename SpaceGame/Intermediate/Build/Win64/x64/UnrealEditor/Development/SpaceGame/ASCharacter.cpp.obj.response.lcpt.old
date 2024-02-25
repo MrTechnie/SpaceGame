@@ -1,19 +1,17 @@
-X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
+X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private\ASCharacter.cpp
 /I .
+/I X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
 /I Runtime
-/I Runtime\Engine\Internal
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I Runtime\Core\Internal
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT
 /I Runtime\CoreOnline\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
 /I Runtime\CoreUObject\Public
-/I Runtime\CoreUObject\Internal
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
@@ -71,7 +69,6 @@ X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Devel
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\UHT
 /I Runtime\AnimationCore\Public
 /I Runtime\PakFile\Public
-/I Runtime\PakFile\Internal
 /I Runtime\RSA\Public
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I Runtime\NetworkReplayStreaming
@@ -91,7 +88,6 @@ X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Devel
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore\UHT
 /I Runtime\AudioLink\AudioLinkCore\Public
 /I Runtime\AudioLink
-/I Runtime\CookOnTheFly\Internal
 /I Runtime\Networking\Public
 /I Developer\TextureBuildUtilities\Public
 /I Developer
@@ -277,19 +273,21 @@ X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Devel
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+/I X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\UnrealEditor\Inc\SpaceGame\UHT
+/I X:\GitHub\SpaceGame\SpaceGame\Source
+/I X:\GitHub\SpaceGame\SpaceGame\Source\SpaceGame\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/Yc"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-/sourceDependencies X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\SpaceGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.dep.json
+/FI"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Definitions.h"
+/Fo"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASCharacter.cpp.lcpt.obj"
+/sourceDependencies"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASCharacter.cpp.dep.lcpt.json"
 /Zc:inline
 /nologo
 /Oi
