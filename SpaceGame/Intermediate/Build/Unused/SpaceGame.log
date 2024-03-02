@@ -2,7 +2,6 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\tonyh\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (X:\GitHub\SpaceGame).
-  Invalidating makefile for SpaceGameEditor (source file removed)
   Building SpaceGameEditor...
   Using Visual Studio 2022 14.39.33520 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -13,12 +12,15 @@
   [Upgrade]
   Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 2.7 GB available: limiting max parallel actions to 1
-  Building 3 actions with 1 process...
-  [1/3] Link [x64] UnrealEditor-SpaceGame.dll
-     Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.exp
-  [2/3] Link [x64] UnrealEditor-SpaceGame.lib
+    Requested 1.5 GB free memory per action, 5.39 GB available: limiting max parallel actions to 3
+  Building 6 actions with 3 processes...
+  [1/6] Compile [x64] W_Inventory.cpp
+  [2/6] Compile [x64] SpaceGame.init.gen.cpp
+  [3/6] Compile [x64] W_Inventory.gen.cpp
+  [4/6] Link [x64] UnrealEditor-SpaceGame.lib
      Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.exp
-  [3/3] WriteMetadata SpaceGameEditor.target
-  Total time in Parallel executor: 1.67 seconds
-  Total execution time: 5.29 seconds
+  [5/6] Link [x64] UnrealEditor-SpaceGame.dll
+     Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.exp
+  [6/6] WriteMetadata SpaceGameEditor.target
+  Total time in Parallel executor: 5.95 seconds
+  Total execution time: 6.50 seconds
