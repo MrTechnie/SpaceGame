@@ -45,7 +45,7 @@
 "X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASCharacter.cpp.obj"
 "X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASInventory.cpp.obj"
 "X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\ASPickableItem.cpp.obj"
-"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\W_Inventory.cpp.obj"
+"X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\W_CharacterInventory.cpp.obj"
 "X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"

@@ -14,82 +14,82 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SPACEGAME_W_Inventory_generated_h
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_SPARSE_DATA
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_RPC_WRAPPERS
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_ACCESSORS
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_SPARSE_DATA
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_RPC_WRAPPERS
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_ACCESSORS
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesAW_Inventory(); \
-	friend struct Z_Construct_UClass_AW_Inventory_Statics; \
+	static void StaticRegisterNativesUW_Inventory(); \
+	friend struct Z_Construct_UClass_UW_Inventory_Statics; \
 public: \
-	DECLARE_CLASS(AW_Inventory, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/SpaceGame"), NO_API) \
-	DECLARE_SERIALIZER(AW_Inventory)
+	DECLARE_CLASS(UW_Inventory, UWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SpaceGame"), NO_API) \
+	DECLARE_SERIALIZER(UW_Inventory)
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_INCLASS \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_INCLASS \
 private: \
-	static void StaticRegisterNativesAW_Inventory(); \
-	friend struct Z_Construct_UClass_AW_Inventory_Statics; \
+	static void StaticRegisterNativesUW_Inventory(); \
+	friend struct Z_Construct_UClass_UW_Inventory_Statics; \
 public: \
-	DECLARE_CLASS(AW_Inventory, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/SpaceGame"), NO_API) \
-	DECLARE_SERIALIZER(AW_Inventory)
+	DECLARE_CLASS(UW_Inventory, UWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SpaceGame"), NO_API) \
+	DECLARE_SERIALIZER(UW_Inventory)
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_STANDARD_CONSTRUCTORS \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AW_Inventory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AW_Inventory) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AW_Inventory); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AW_Inventory); \
+	NO_API UW_Inventory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UW_Inventory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UW_Inventory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UW_Inventory); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API AW_Inventory(AW_Inventory&&); \
-	NO_API AW_Inventory(const AW_Inventory&); \
+	NO_API UW_Inventory(UW_Inventory&&); \
+	NO_API UW_Inventory(const UW_Inventory&); \
 public: \
-	NO_API virtual ~AW_Inventory();
+	NO_API virtual ~UW_Inventory();
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AW_Inventory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UW_Inventory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API AW_Inventory(AW_Inventory&&); \
-	NO_API AW_Inventory(const AW_Inventory&); \
+	NO_API UW_Inventory(UW_Inventory&&); \
+	NO_API UW_Inventory(const UW_Inventory&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AW_Inventory); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AW_Inventory); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AW_Inventory) \
-	NO_API virtual ~AW_Inventory();
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UW_Inventory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UW_Inventory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UW_Inventory) \
+	NO_API virtual ~UW_Inventory();
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_12_PROLOG
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_GENERATED_BODY_LEGACY \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_14_PROLOG
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_SPARSE_DATA \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_RPC_WRAPPERS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_ACCESSORS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_INCLASS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_STANDARD_CONSTRUCTORS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_SPARSE_DATA \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_RPC_WRAPPERS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_ACCESSORS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_INCLASS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_GENERATED_BODY \
+#define FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_SPARSE_DATA \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_ACCESSORS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_INCLASS_NO_PURE_DECLS \
-	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_15_ENHANCED_CONSTRUCTORS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_SPARSE_DATA \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_ACCESSORS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_INCLASS_NO_PURE_DECLS \
+	FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> SPACEGAME_API UClass* StaticClass<class AW_Inventory>();
+template<> SPACEGAME_API UClass* StaticClass<class UW_Inventory>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_SpaceGame_Source_SpaceGame_Public_W_Inventory_h
