@@ -71,7 +71,7 @@
     <ClCompile Include="..\..\Source\SpaceGame\Private\ASPickableItem.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SpaceGame\Private\W_Inventory.cpp">
+    <ClCompile Include="..\..\Source\SpaceGame\Private\W_CharacterInventory.cpp">
       <Filter>Source\SpaceGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SpaceGame\Public">
@@ -86,7 +86,7 @@
     <ClInclude Include="..\..\Source\SpaceGame\Public\ASPickableItem.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\SpaceGame\Public\W_Inventory.h">
+    <ClInclude Include="..\..\Source\SpaceGame\Public\W_CharacterInventory.h">
       <Filter>Source\SpaceGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
