@@ -2,6 +2,10 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\tonyh\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (X:\GitHub\SpaceGame).
+  Parsing headers for SpaceGameEditor
+    Running Internal UnrealHeaderTool X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\SpaceGameEditor\Development\SpaceGameEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 0 written
+  Reflection code generated for SpaceGameEditor in 1.0571623 seconds
   Building SpaceGameEditor...
   Using Visual Studio 2022 14.39.33520 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -12,15 +16,65 @@
   [Upgrade]
   Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.39 GB available: limiting max parallel actions to 3
-  Building 6 actions with 3 processes...
-  [1/6] Compile [x64] W_Inventory.cpp
-  [2/6] Compile [x64] SpaceGame.init.gen.cpp
-  [3/6] Compile [x64] W_Inventory.gen.cpp
-  [4/6] Link [x64] UnrealEditor-SpaceGame.lib
-     Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.exp
-  [5/6] Link [x64] UnrealEditor-SpaceGame.dll
+    Requested 1.5 GB free memory per action, 2.41 GB available: limiting max parallel actions to 1
+  Building 5 actions with 1 process...
+  [1/5] Compile [x64] ASCharacter.gen.cpp
+  [2/5] Compile [x64] ASCharacter.cpp
+  [3/5] Link [x64] UnrealEditor-SpaceGame.dll
      Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.suppressed.exp
-  [6/6] WriteMetadata SpaceGameEditor.target
-  Total time in Parallel executor: 5.95 seconds
-  Total execution time: 6.50 seconds
+W_Inventory.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UClass * __cdecl UWidget::StaticClass(void)" (__imp_?StaticClass@UWidget@@SAPEAVUClass@@XZ) referenced in function "private: static class UClass * __cdecl UW_Inventory::GetPrivateStaticClass(void)" (?GetPrivateStaticClass@UW_Inventory@@CAPEAVUClass@@XZ)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: static class UClass * __cdecl AActor::StaticClass(void)" (__imp_?StaticClass@AActor@@SAPEAVUClass@@XZ)
+      "__declspec(dllimport) public: static class UClass * __cdecl ACharacter::StaticClass(void)" (__imp_?StaticClass@ACharacter@@SAPEAVUClass@@XZ)
+      "__declspec(dllimport) public: static class UClass * __cdecl AGameModeBase::StaticClass(void)" (__imp_?StaticClass@AGameModeBase@@SAPEAVUClass@@XZ)
+      "__declspec(dllimport) public: static class UClass * __cdecl UActorComponent::StaticClass(void)" (__imp_?StaticClass@UActorComponent@@SAPEAVUClass@@XZ)
+      "__declspec(dllimport) public: static class UClass * __cdecl UObject::StaticClass(void)" (__imp_?StaticClass@UObject@@SAPEAVUClass@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UWidget::UWidget(class FObjectInitializer const &)" (__imp_??0UWidget@@QEAA@AEBVFObjectInitializer@@@Z) referenced in function "void __cdecl InternalConstructor<class UW_Inventory>(class FObjectInitializer const &)" (??$InternalConstructor@VUW_Inventory@@@@YAXAEBVFObjectInitializer@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl UWidget::UWidget(class FVTableHelper &)" (__imp_??0UWidget@@QEAA@AEAVFVTableHelper@@@Z) referenced in function "public: __cdecl UW_Inventory::UW_Inventory(class FVTableHelper &)" (??0UW_Inventory@@QEAA@AEAVFVTableHelper@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl UWidget::~UWidget(void)" (__imp_??1UWidget@@UEAA@XZ) referenced in function "public: virtual __cdecl UW_Inventory::~UW_Inventory(void)" (??1UW_Inventory@@UEAA@XZ)
+W_Inventory.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UWidget(void)" (__imp_?Z_Construct_UClass_UWidget@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static class UObject * (__cdecl*const * const Z_Construct_UClass_UW_Inventory_Statics::DependentSingletons)(void)''(void)" (??__E?DependentSingletons@Z_Construct_UClass_UW_Inventory_Statics@@2QBQ6APEAVUObject@@XZB@@YAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UObject * __cdecl UWidget::_getUObject(void)const " (?_getUObject@UWidget@@UEBAPEAVUObject@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual struct UE::FieldNotification::IClassDescriptor const & __cdecl UWidget::GetFieldNotificationDescriptor(void)const " (?GetFieldNotificationDescriptor@UWidget@@UEBAAEBUIClassDescriptor@FieldNotification@UE@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetLockedInDesigner(bool)" (?SetLockedInDesigner@UWidget@@UEAAX_N@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ValidateCompiledDefaults(class IWidgetCompilerLog &)const " (?ValidateCompiledDefaults@UWidget@@UEBAXAEAVIWidgetCompilerLog@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnCreationFromPalette(void)" (?OnCreationFromPalette@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::ConnectEditorData(void)" (?ConnectEditorData@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDesignerChanged(struct FDesignerChangedEventArgs const &)" (?OnDesignerChanged@UWidget@@UEAAXAEBUFDesignerChangedEventArgs@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnSelectedByDesigner(void)" (?OnSelectedByDesigner@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDeselectedByDesigner(void)" (?OnDeselectedByDesigner@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantSelectedByDesigner(class UWidget *)" (?OnDescendantSelectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnDescendantDeselectedByDesigner(class UWidget *)" (?OnDescendantDeselectedByDesigner@UWidget@@UEAAXPEAV1@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnBeginEditByDesigner(void)" (?OnBeginEditByDesigner@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::OnEndEditByDesigner(void)" (?OnEndEditByDesigner@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetDesignerFlags(enum EWidgetDesignFlags)" (?SetDesignerFlags@UWidget@@UEAAXW4EWidgetDesignFlags@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnWidgetRebuilt(void)" (?OnWidgetRebuilt@UWidget@@MEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,1> __cdecl UWidget::RebuildWidget(void)" (?RebuildWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$00@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FText const __cdecl UWidget::GetPaletteCategory(void)" (?GetPaletteCategory@UWidget@@UEAA?BVFText@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SynchronizeProperties(void)" (?SynchronizeProperties@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class ULocalPlayer * __cdecl UWidget::GetOwningLocalPlayer(void)const " (?GetOwningLocalPlayer@UWidget@@UEBAPEAVULocalPlayer@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class APlayerController * __cdecl UWidget::GetOwningPlayer(void)const " (?GetOwningPlayer@UWidget@@UEBAPEAVAPlayerController@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetVisibility(enum ESlateVisibility)" (?SetVisibility@UWidget@@UEAAXW4ESlateVisibility@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class UWorld * __cdecl UWidget::GetWorld(void)const " (?GetWorld@UWidget@@UEBAPEAVUWorld@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::PostEditChangeProperty(struct FPropertyChangedEvent &)" (?PostEditChangeProperty@UWidget@@UEAAXAEAUFPropertyChangedEvent@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::BeginDestroy(void)" (?BeginDestroy@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::PreSave(class FObjectPreSaveContext)" (?PreSave@UWidget@@UEAAXVFObjectPreSaveContext@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UVisual::ReleaseSlateResources(bool)" (?ReleaseSlateResources@UVisual@@UEAAX_N@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl UWidget::RemoveAllFieldValueChangedDelegates(void const *)" (?RemoveAllFieldValueChangedDelegates@UWidget@@UEAAHPEBX@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl UWidget::RemoveAllFieldValueChangedDelegates(struct UE::FieldNotification::FFieldId,void const *)" (?RemoveAllFieldValueChangedDelegates@UWidget@@UEAAHUFFieldId@FieldNotification@UE@@PEBX@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::RemoveFieldValueChangedDelegate(struct UE::FieldNotification::FFieldId,class FDelegateHandle)" (?RemoveFieldValueChangedDelegate@UWidget@@UEAA_NUFFieldId@FieldNotification@UE@@VFDelegateHandle@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FDelegateHandle __cdecl UWidget::AddFieldValueChangedDelegate(struct UE::FieldNotification::FFieldId,class TDelegate<void __cdecl(class UObject *,struct UE::FieldNotification::FFieldId),struct FDefaultDelegateUserPolicy>)" (?AddFieldValueChangedDelegate@UWidget@@UEAA?AVFDelegateHandle@@UFFieldId@FieldNotification@UE@@V?$TDelegate@$$A6AXPEAVUObject@@UFFieldId@FieldNotification@UE@@@ZUFDefaultDelegateUserPolicy@@@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedPtr<class SWidget,1> __cdecl UWidget::GetAccessibleWidget(void)const " (?GetAccessibleWidget@UWidget@@MEBA?AV?$TSharedPtr@VSWidget@@$00@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual class TSharedRef<class SWidget,1> __cdecl UWidget::RebuildDesignWidget(class TSharedRef<class SWidget,1>)" (?RebuildDesignWidget@UWidget@@MEAA?AV?$TSharedRef@VSWidget@@$00@@V2@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl UWidget::OnBindingChanged(class FName const &)" (?OnBindingChanged@UWidget@@MEAAXAEBVFName@@@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual class FString __cdecl UWidget::GetLabelMetadata(void)const " (?GetLabelMetadata@UWidget@@UEBA?AVFString@@XZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::RemoveFromParent(void)" (?RemoveFromParent@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::IsHovered(void)const " (?IsHovered@UWidget@@UEBA_NXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::SetIsEnabled(bool)" (?SetIsEnabled@UWidget@@UEAAX_N@Z)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UVisual::NeedsLoadForServer(void)const " (?NeedsLoadForServer@UVisual@@UEBA_NXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl UWidget::FinishDestroy(void)" (?FinishDestroy@UWidget@@UEAAXXZ)
+W_Inventory.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual bool __cdecl UWidget::Modify(bool)" (?Modify@UWidget@@UEAA_N_N@Z)
+X:\GitHub\SpaceGame\SpaceGame\Binaries\Win64\UnrealEditor-SpaceGame.dll : fatal error LNK1120: 45 unresolved externals
+  [4/5] Link [x64] UnrealEditor-SpaceGame.lib
+     Creating library X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.lib and object X:\GitHub\SpaceGame\SpaceGame\Intermediate\Build\Win64\x64\UnrealEditor\Development\SpaceGame\UnrealEditor-SpaceGame.exp
+  [5/5] WriteMetadata SpaceGameEditor.target cancelled
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.2\Engine\Build\BatchFiles\Build.bat" SpaceGameEditor Win64 Development -Project="X:\GitHub\SpaceGame\SpaceGame\SpaceGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.
