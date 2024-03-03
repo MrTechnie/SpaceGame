@@ -3,18 +3,22 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/HUD.h"
+#include "UMG/Public/Components/CanvasPanel.h"
+#include "UMG/Public/Components/Widget.h"
 #include "W_Inventory.generated.h"
 
+class UCanvasPanel;
 /**
  * 
  */
 UCLASS()
-class SPACEGAME_API AW_Inventory : public AHUD
+class SPACEGAME_API UW_Inventory : public UWidget
 {
 	GENERATED_BODY()
 	
 public:
 
-	 
+	UCanvasPanel* CanvasPannel;
+ 
+
 };

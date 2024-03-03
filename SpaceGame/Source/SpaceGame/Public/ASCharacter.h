@@ -10,7 +10,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class ASInventory;
-class W_Inventory; 
+
 
 
 UCLASS()
